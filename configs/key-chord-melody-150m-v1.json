@@ -1,0 +1,16 @@
+{
+  "task": "POP909 key chord melody to piano",
+  "initialization": "48-layer 150M melody-to-piano model with expanded vocabulary",
+  "epochs": 5,
+  "learning_rate": 0.00001,
+  "scheduler": "constant_with_warmup",
+  "warmup_ratio": 0.10,
+  "weight_decay": 0.01,
+  "per_device_batch_size": 2,
+  "gradient_accumulation_steps": 8,
+  "world_size": 2,
+  "effective_batch_size": 32,
+  "max_grad_norm": 1.0,
+  "early_stopping": false,
+  "loss": "causal cross entropy on piano target tokens only"
+}

@@ -1,0 +1,22 @@
+{
+  "063": [
+    "known_missing_key_signature",
+    "missing_cl_key_signature"
+  ],
+  "367": [
+    "known_missing_chord_track",
+    "known_missing_key_signature",
+    "missing_cl_chord_track",
+    "missing_cl_key_signature"
+  ],
+  "518": [
+    "known_downbeat_misalignment"
+  ],
+  "620": [
+    "known_possible_hand_misalignment"
+  ],
+  "658": [
+    "known_missing_chord_track",
+    "missing_cl_chord_track"
+  ]
+}

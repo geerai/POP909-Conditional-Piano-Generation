@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this research code, please cite the repository."
+title: "POP909 Conditional Piano Generation"
+type: software
+authors:
+  - family-names: "Ai"
+    given-names: "Geer"
+repository-code: "https://github.com/geerai/POP909-Conditional-Piano-Generation"
+url: "https://geerai.github.io/Demo-Page/"
+version: 0.1.0
+date-released: 2026-11-26

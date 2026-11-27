@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+venv/
+.env
+
+# Recreated from the public source datasets.
+data/
+datasets/
+*.jsonl
+cleaned-midi/
+roundtrip-examples/
+
+# Store checkpoints and large weights outside ordinary Git.
+runs/
+checkpoints/
+final-model/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+train.log
+
+# Local generated archives.
+*.tar.gz
+*.zip

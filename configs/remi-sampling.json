@@ -1,0 +1,8 @@
+{
+  "method": "REMI temperature/top-k sampling",
+  "temperature": 1.2,
+  "top_k": 5,
+  "top_p": 1.0,
+  "grammar_constraint": false,
+  "context_length": 2048
+}

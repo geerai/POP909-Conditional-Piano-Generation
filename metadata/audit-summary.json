@@ -1,0 +1,29 @@
+{
+  "format": "POP909 Original MELODY/PIANO + POP909-CL Key/Chord",
+  "audited_songs": 909,
+  "accepted_songs": 904,
+  "excluded_songs": 5,
+  "songs_passed_conversion": 903,
+  "songs_failed_conversion": 1,
+  "split_counts": {
+    "train": {
+      "songs": 804,
+      "windows": 2767
+    },
+    "validation": {
+      "songs": 50,
+      "windows": 171
+    },
+    "test": {
+      "songs": 49,
+      "windows": 168
+    }
+  },
+  "base_vocab_size": 1727,
+  "extended_vocab_size": 1782,
+  "old_vocab_ids_preserved": true,
+  "grid_per_quarter": 48,
+  "max_tokens": 2048,
+  "max_bars_per_window": 32,
+  "ppq_policy": "convert each source tick through its own PPQ to the 48-grid"
+}

@@ -1,0 +1,53 @@
+{
+  "samples": 100,
+  "paired_common_bars_total": 1847,
+  "grammar_valid_samples": 0,
+  "complete_bar_end_samples": 48,
+  "context_limit_samples": 49,
+  "macro_means": {
+    "unique_complete_bar_ratio": 0.7564324024808139,
+    "paired_bar_ratio": 0.7356640404525548,
+    "reference_overall_ctr": 0.6656151108638972,
+    "generated_overall_ctr": 0.4234975305364168,
+    "overall_ctr_delta": -0.24211758032748049,
+    "reference_first_beat_ctr": 0.6336104453040343,
+    "generated_first_beat_ctr": 0.4386731434710281,
+    "first_beat_ctr_delta": -0.1884745593094165,
+    "reference_notes_per_bar": 11.948136444842927,
+    "generated_notes_per_bar": 15.502573525157226,
+    "reference_mean_ioi": 23.698005810046325,
+    "generated_mean_ioi": 19.993654993399492,
+    "mean_bar_onset_jaccard": 0.49480726915623385,
+    "reference_repetition_rate": 0.5007217795280053,
+    "generated_repetition_rate": 0.7008698604018149,
+    "ssm_correlation": 0.02922859625608933
+  },
+  "micro_harmony": {
+    "reference_overall_ctr": 0.6583274440518256,
+    "generated_overall_ctr": 0.42726523270628797,
+    "reference_overall_hits": 13973,
+    "reference_overall_evaluable_notes": 21225,
+    "generated_overall_hits": 11402,
+    "generated_overall_evaluable_notes": 26686,
+    "reference_first_beat_ctr": 0.6309711286089239,
+    "generated_first_beat_ctr": 0.4332220367278798,
+    "reference_first_beat_hits": 2404,
+    "reference_first_beat_evaluable_notes": 3810,
+    "generated_first_beat_hits": 1557,
+    "generated_first_beat_evaluable_notes": 3594
+  },
+  "methodology": {
+    "harmony": "note-onset chord-tone ratio; first-beat means POSITION_000",
+    "rhythm": "unique-onset IOI within bars; exact onset-position Jaccard across paired bars",
+    "duration_bins_grid_units": [
+      "<=12",
+      "13-24",
+      "25-48",
+      "49-96",
+      ">96"
+    ],
+    "structure": "bar features = normalized pitch-class histogram + 16-bin onset histogram + density",
+    "repetition": "fraction of off-diagonal SSM values >= 0.8",
+    "alignment": "first complete unique emitted BAR id paired to the same condition/reference BAR id"
+  }
+}
